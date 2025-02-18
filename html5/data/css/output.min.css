@@ -834,3 +834,7 @@ body:not(.is-touchable-tablet) .cs-npnxabnsnfns00000000001 .cs-button:hover .tex
 #slide{
     top: 64px !important;
 }
+
+#bottom-bar{
+  display: none !important;
+}
