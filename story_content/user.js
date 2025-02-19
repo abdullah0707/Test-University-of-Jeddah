@@ -25,23 +25,20 @@ for (let index = 0; index < x.length; index++) {
 
 window.Script6 = function()
 {
+  
+let promoVid = document.querySelector('video');
+
+promoVid.setAttribute('style', 'box-shadow: 0px 0px 3px 1px #1396D4; border-radius: 20px;');
+}
+
+window.Script7 = function()
+{
   Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
     el.addEventListener('keyup', () => {
         el.blur();
         el.focus();
     })
 });
-}
-
-window.Script7 = function()
-{
-  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
-
-var x = document.getElementsByTagName("input");
-for (let index = 0; index < x.length; index++) {
-    x[index].value="";
-}
-
 }
 
 window.Script8 = function()
@@ -68,6 +65,17 @@ for (let index = 0; index < x.length; index++) {
 
 window.Script10 = function()
 {
+  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+
+var x = document.getElementsByTagName("input");
+for (let index = 0; index < x.length; index++) {
+    x[index].value="";
+}
+
+}
+
+window.Script11 = function()
+{
   Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
     el.addEventListener('keyup', () => {
         
@@ -76,7 +84,7 @@ window.Script10 = function()
     })})
 }
 
-window.Script11 = function()
+window.Script12 = function()
 {
   var player = GetPlayer();
 var searchQuery = player.GetVar("TextEntry_Search").toLowerCase();
@@ -113,7 +121,7 @@ player.SetVar('count',count)
 
 }
 
-window.Script12 = function()
+window.Script13 = function()
 {
   //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
 
@@ -124,7 +132,15 @@ for (let index = 0; index < x.length; index++) {
 
 }
 
-window.Script13 = function()
+window.Script14 = function()
+{
+  
+let promoVid = document.querySelector('video');
+
+promoVid.setAttribute('style', 'box-shadow: 0px 0px 3px 1px #1396D4; border-radius: 20px;');
+}
+
+window.Script15 = function()
 {
   Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
     el.addEventListener('keyup', () => {
@@ -132,28 +148,6 @@ window.Script13 = function()
         el.focus();
     })
 });
-}
-
-window.Script14 = function()
-{
-  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
-
-var x = document.getElementsByTagName("input");
-for (let index = 0; index < x.length; index++) {
-    x[index].value="";
-}
-
-}
-
-window.Script15 = function()
-{
-  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
-
-var x = document.getElementsByTagName("input");
-for (let index = 0; index < x.length; index++) {
-    x[index].value="";
-}
-
 }
 
 window.Script16 = function()
@@ -169,6 +163,28 @@ for (let index = 0; index < x.length; index++) {
 
 window.Script17 = function()
 {
+  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+
+var x = document.getElementsByTagName("input");
+for (let index = 0; index < x.length; index++) {
+    x[index].value="";
+}
+
+}
+
+window.Script18 = function()
+{
+  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+
+var x = document.getElementsByTagName("input");
+for (let index = 0; index < x.length; index++) {
+    x[index].value="";
+}
+
+}
+
+window.Script19 = function()
+{
   let videoContentDev = document.querySelector('.control-background');
 let videoContentModern = document.querySelector('.modern-video-controls');
 
@@ -177,7 +193,7 @@ videoContentModern.setAttribute('style', 'height: 43px; width: 96%; position: ab
 
 }
 
-window.Script18 = function()
+window.Script20 = function()
 {
   Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
     el.addEventListener('keyup', () => {
@@ -187,7 +203,7 @@ window.Script18 = function()
     })})
 }
 
-window.Script19 = function()
+window.Script21 = function()
 {
   var player = GetPlayer();
 var searchQuery = player.GetVar("TextEntry_Search").toLowerCase();
@@ -224,27 +240,6 @@ player.SetVar('count',count)
 
 }
 
-window.Script20 = function()
-{
-  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
-
-var x = document.getElementsByTagName("input");
-for (let index = 0; index < x.length; index++) {
-    x[index].value="";
-}
-
-}
-
-window.Script21 = function()
-{
-  Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
-    el.addEventListener('keyup', () => {
-        el.blur();
-        el.focus();
-    })
-});
-}
-
 window.Script22 = function()
 {
   //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
@@ -258,16 +253,23 @@ for (let index = 0; index < x.length; index++) {
 
 window.Script23 = function()
 {
-  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+  
+let promoVid = document.querySelector('video');
 
-var x = document.getElementsByTagName("input");
-for (let index = 0; index < x.length; index++) {
-    x[index].value="";
-}
-
+promoVid.setAttribute('style', 'box-shadow: 0px 0px 3px 1px #1396D4; border-radius: 20px;');
 }
 
 window.Script24 = function()
+{
+  Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
+    el.addEventListener('keyup', () => {
+        el.blur();
+        el.focus();
+    })
+});
+}
+
+window.Script25 = function()
 {
   //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
 
@@ -278,7 +280,29 @@ for (let index = 0; index < x.length; index++) {
 
 }
 
-window.Script25 = function()
+window.Script26 = function()
+{
+  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+
+var x = document.getElementsByTagName("input");
+for (let index = 0; index < x.length; index++) {
+    x[index].value="";
+}
+
+}
+
+window.Script27 = function()
+{
+  //document.querySelector("#slide-window > div > div > div.slide-transition-container > div > div > div.slide-layer.base-layer.shown > div.slide-object.slide-object-textinput.shown > div > div > input[type=text]").value =""
+
+var x = document.getElementsByTagName("input");
+for (let index = 0; index < x.length; index++) {
+    x[index].value="";
+}
+
+}
+
+window.Script28 = function()
 {
   Array.from(document.querySelectorAll('.acc-textinput')).forEach(el => {
     el.addEventListener('keyup', () => {
@@ -288,7 +312,7 @@ window.Script25 = function()
     })})
 }
 
-window.Script26 = function()
+window.Script29 = function()
 {
   var player = GetPlayer();
 var searchQuery = player.GetVar("TextEntry_Search").toLowerCase();
